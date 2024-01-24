@@ -1,7 +1,7 @@
-public class ButtonHandler
+ï»¿public class ButtonHandler
 {
     private static readonly Random _random = new Random();
-    private static readonly string[] _vowels = ["a", "e", "i", "o", "u","y","æ","ø","å"];
+    private static readonly string[] _vowels = ["a", "e", "i", "o", "u","y","Ã¦","Ã¸","Ã¥"];
     private static readonly string[] _lettersOfInterest = ["r", "l"];
     public string Text = GenerateThreeLetterCombination();
     public void ButtonClicked(LetterVariant letters)
