@@ -1,0 +1,11 @@
+﻿@page "/"
+@inject ButtonHandler buttonHandler
+
+<PageTitle>Home</PageTitle>
+<div class="full-size">
+<button @onclick="() => buttonHandler.ButtonClicked(LetterVariant.VowelPrefixAndSuffix)">3</button>
+<button @onclick="() => buttonHandler.ButtonClicked(LetterVariant.VowelPrefix)">2a</button>
+<button @onclick="() => buttonHandler.ButtonClicked(LetterVariant.VowelSuffix)">2b</button>
+<button @onclick="() => buttonHandler.ButtonClicked(LetterVariant.LetterOfInterest)">1</button>
+<h1>@buttonHandler.Text</h1>
+</div>
